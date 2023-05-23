@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="César Eduardo Martínez Pérez">
+        <meta name="email" content="cemp_gym@hotmail.com">
+        <meta title="1st Challenge Encriptador de Texto">
+        <link rel="icon" type="image/jpg" href="./imagenes/favicon.png">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <script type="text/javascript" src="./script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <title>Encriptador de Texto</title>
+    </head>
+
+    <body>
+        <header>
+            <img class="logo" src="./imagenes/logo.png" alt="Logo de Alura">
+        </header>
+
+        <main>
+            <section>
+                <textarea id="texto" name="texto" class="texto" rows="10" placeholder="Ingrese el texto aquí" autocomplete="off"></textarea>
+                <div>
+                    <h6 class="informacion"><img src="./imagenes/exclamacion.png" alt="Exclamación">  Solo letras minúsculas y sin acentos.</h6>
+                </div>
+                <div class="botones">
+                    <button type="button" class="boton-encriptar" onclick="encriptar()">Encriptar</button>
+                    <button type="button" class="boton-desencriptar" onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section>
+                <textarea id="mensaje" name="mensaje" class="mensaje" rows="10" disabled></textarea>
+                <div class="botones">
+                    <button type="button" class="boton-copiar" onclick="copiar()">Copiar</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <section>
+                
+                <h5 class="rodapie">Desarrollado por: César Eduardo Martínez Pérez<br>
+                    Copyright &#x00A9 2023 - 1er Challenge ONE G5<br>
+                    <a href="https://www.linkedin.com/in/cesar-eduardo-martinez-perez/">
+                    <img class="linkedin" id="pie3" src="./imagenes/logo_linkedin.png" alt="Acceder al LinkedIn de César Eduardo Martínez Pérez"></a>
+                </h5>
+            </section>
+        </footer>
+
+        <script src="./script.js"></script>
+
+    </body>
+</html>
